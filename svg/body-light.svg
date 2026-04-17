@@ -33,35 +33,35 @@
 
   <text x="60" y="470" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#6B614F" letter-spacing="2" font-weight="700">01</text>
   <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="20" fill="#1A1714">
-    <text x="130" y="470">Defense-first isn't offense-last. It's offense in a box;</text>
-    <text x="130" y="498">isolated zone, no network path, then you can learn freely.</text>
+    <text x="130" y="470">Blast radius + detection signal before you ship. Applies</text>
+    <text x="130" y="498">to a firewall rule, a Phortex migration, a consulting change.</text>
   </g>
 
   <text x="60" y="556" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#6B614F" letter-spacing="2" font-weight="700">02</text>
   <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="20" fill="#1A1714">
-    <text x="130" y="556">If you can't name the blast radius and the detection signal</text>
-    <text x="130" y="584">for a thing, you shouldn't ship the thing.</text>
+    <text x="130" y="556">Plan before config, write before code, rollback before deploy.</text>
+    <text x="130" y="584">Applies in security, in product, in contracts. I've burned</text>
+    <text x="130" y="612">afternoons skipping one; I haven't yet skipped two and lived.</text>
   </g>
 
-  <text x="60" y="642" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#6B614F" letter-spacing="2" font-weight="700">03</text>
+  <text x="60" y="670" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#6B614F" letter-spacing="2" font-weight="700">03</text>
   <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="20" fill="#1A1714">
-    <text x="130" y="642">Plan before config, write before code, rollback before deploy.</text>
-    <text x="130" y="670">I've burned afternoons skipping one of these;</text>
-    <text x="130" y="698">I haven't yet skipped two and lived.</text>
+    <text x="130" y="670">The real problem is rarely the first one someone names.</text>
+    <text x="130" y="698">Same in customer discovery, security triage, and debugging.</text>
   </g>
 
   <text x="60" y="756" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#6B614F" letter-spacing="2" font-weight="700">04</text>
   <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="20" fill="#1A1714">
     <text x="130" y="756">Every lesson learned the hard way goes into a file at the</text>
-    <text x="130" y="784">tool-class level. Not "what broke on Tuesday at 11 PM";</text>
-    <text x="130" y="812">what class of trap broke it.</text>
+    <text x="130" y="784">class-of-trap level. Not "DNS dropped last Tuesday" or</text>
+    <text x="130" y="812">"that deal fell through", but what kind of thing does that.</text>
   </g>
 
   <text x="60" y="870" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#6B614F" letter-spacing="2" font-weight="700">05</text>
   <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="20" fill="#1A1714">
-    <text x="130" y="870">Real-time alerts beat daily log review for anything that</text>
-    <text x="130" y="898">matters. If something trips at 3 AM, I want my phone to</text>
-    <text x="130" y="926">know first, not my inbox at 8 AM.</text>
+    <text x="130" y="870">Real-time signal beats batch review. Push on SSH login,</text>
+    <text x="130" y="898">ping on customer cancel, alert on a failed payment. Anything</text>
+    <text x="130" y="926">I find at 8 AM I could have found at 3 AM was wired wrong.</text>
   </g>
 
   <line x1="60" y1="968" x2="1140" y2="968" stroke="#D8CCB4" stroke-width="1"/>
