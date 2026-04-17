@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-label="Gurmann Basran profile body">
+  <rect width="1200" height="1500" fill="#1A1714"/>
+
+  <!-- Column guides -->
+  <g stroke="#241F1B" stroke-width="0.5" opacity="0.9">
+    <line x1="60" y1="0" x2="60" y2="1500"/>
+    <line x1="1140" y1="0" x2="1140" y2="1500"/>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- § 01  ABOUT                               -->
+  <!-- ========================================= -->
+  <line x1="60" y1="50" x2="1140" y2="50" stroke="#3A3228" stroke-width="1"/>
+  <text x="60" y="95" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#D45B47" letter-spacing="3" font-weight="700">§ 01  ABOUT</text>
+  <g transform="translate(1080, 92)">
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#D45B47" stroke-width="1.5"/>
+    <path d="M -8 0 L 0 -12 L 8 0 Z" fill="#D45B47"/>
+  </g>
+
+  <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6">
+    <text x="60" y="160">I'm a CS student at the University of Lethbridge. I build two</text>
+    <text x="60" y="194">things in parallel: Phortex, a multi-tenant SaaS platform for</text>
+    <text x="60" y="228">Alberta construction and oilfield safety compliance under my</text>
+    <text x="60" y="262">company Phuturum Tech; and Operation fsoc, a nineteen-phase</text>
+    <text x="60" y="296">defense-first security engineering project running out of my</text>
+    <text x="60" y="330">own homelab. Everything else I do orbits those two.</text>
+    <text x="60" y="394" font-style="italic" fill="#C6BFB2">Grew up on Mr. Robot and took the wrong lessons about</text>
+    <text x="60" y="428" font-style="italic" fill="#C6BFB2">compartmentalization, tooling, and trust. The good wrong ones.</text>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- § 02  THINGS I'VE FIGURED OUT             -->
+  <!-- ========================================= -->
+  <line x1="60" y1="478" x2="1140" y2="478" stroke="#3A3228" stroke-width="1"/>
+  <text x="60" y="523" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#D45B47" letter-spacing="3" font-weight="700">§ 02  THINGS I'VE FIGURED OUT DOING THIS</text>
+  <g transform="translate(1080, 520)">
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#D45B47" stroke-width="1.5"/>
+    <path d="M -8 0 L 0 -12 L 8 0 Z" fill="#D45B47"/>
+  </g>
+
+  <!-- 01 -->
+  <text x="60" y="598" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2" font-weight="700">01</text>
+  <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6">
+    <text x="140" y="598">Defense-first isn't offense-last. It's offense in a box;</text>
+    <text x="140" y="632">isolated zone, no network path, then you can learn freely.</text>
+  </g>
+
+  <!-- 02 -->
+  <text x="60" y="710" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2" font-weight="700">02</text>
+  <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6">
+    <text x="140" y="710">If you can't name the blast radius and the detection signal</text>
+    <text x="140" y="744">for a thing, you shouldn't ship the thing.</text>
+  </g>
+
+  <!-- 03 -->
+  <text x="60" y="822" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2" font-weight="700">03</text>
+  <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6">
+    <text x="140" y="822">Plan before config, write before code, rollback before deploy.</text>
+    <text x="140" y="856">I've burned afternoons skipping one of these;</text>
+    <text x="140" y="890">I haven't yet skipped two and lived.</text>
+  </g>
+
+  <!-- 04 -->
+  <text x="60" y="968" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2" font-weight="700">04</text>
+  <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6">
+    <text x="140" y="968">Every lesson learned the hard way goes into a file at the</text>
+    <text x="140" y="1002">tool-class level. Not "what broke on Tuesday at 11 PM";</text>
+    <text x="140" y="1036">what class of trap broke it.</text>
+  </g>
+
+  <!-- 05 -->
+  <text x="60" y="1114" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2" font-weight="700">05</text>
+  <g font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6">
+    <text x="140" y="1114">Real-time alerts beat daily log review for anything that</text>
+    <text x="140" y="1148">matters. If something trips at 3 AM, I want my phone to</text>
+    <text x="140" y="1182">know first, not my inbox at 8 AM.</text>
+  </g>
+
+  <!-- ========================================= -->
+  <!-- § 03  SELECTED CODE                       -->
+  <!-- ========================================= -->
+  <line x1="60" y1="1230" x2="1140" y2="1230" stroke="#3A3228" stroke-width="1"/>
+  <text x="60" y="1275" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#D45B47" letter-spacing="3" font-weight="700">§ 03  SELECTED CODE</text>
+  <g transform="translate(1080, 1272)">
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#D45B47" stroke-width="1.5"/>
+    <path d="M -8 0 L 0 -12 L 8 0 Z" fill="#D45B47"/>
+  </g>
+
+  <!-- code 01 -->
+  <text x="60" y="1330" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2">01</text>
+  <text x="140" y="1330" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6" font-weight="700">fsoc-portfolio</text>
+  <text x="380" y="1330" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#8A7F72">sanitized case study, ci-verified latex pdfs</text>
+
+  <!-- code 02 -->
+  <text x="60" y="1362" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2">02</text>
+  <text x="140" y="1362" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6" font-weight="700">DIALD</text>
+  <text x="380" y="1362" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#8A7F72">hackathon winner, adhd-friendly study companion</text>
+
+  <!-- code 03 -->
+  <text x="60" y="1394" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2">03</text>
+  <text x="140" y="1394" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6" font-weight="700">phosphor-docs</text>
+  <text x="380" y="1394" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#8A7F72">zero-dep python docs generator</text>
+
+  <!-- code 04 -->
+  <text x="60" y="1426" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2">04</text>
+  <text x="140" y="1426" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6" font-weight="700">jonesauto-dbms</text>
+  <text x="380" y="1426" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#8A7F72">full-stack php + mysql course project</text>
+
+  <!-- code 05 -->
+  <text x="60" y="1458" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2">05</text>
+  <text x="140" y="1458" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6" font-weight="700">trying-to-focus</text>
+  <text x="380" y="1458" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#8A7F72">interactive adhd simulator, vanilla js</text>
+
+  <!-- code 06 -->
+  <text x="60" y="1490" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8A7F72" letter-spacing="2">06</text>
+  <text x="140" y="1490" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="22" fill="#E8E2D6" font-weight="700">snapchat-memory-dl</text>
+  <text x="380" y="1490" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#8A7F72">windows gui, bulk h.264 export tool</text>
+</svg>

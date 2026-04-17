@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="elsewhere and sign-off">
+  <rect width="1200" height="280" fill="#1A1714"/>
+
+  <g stroke="#241F1B" stroke-width="0.5" opacity="0.9">
+    <line x1="60" y1="0" x2="60" y2="280"/>
+    <line x1="1140" y1="0" x2="1140" y2="280"/>
+  </g>
+
+  <line x1="60" y1="50" x2="1140" y2="50" stroke="#3A3228" stroke-width="1"/>
+  <text x="60" y="95" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#D45B47" letter-spacing="3" font-weight="700">§ 04  ELSEWHERE</text>
+  <g transform="translate(1080, 92)">
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#D45B47" stroke-width="1.5"/>
+    <path d="M -8 0 L 0 -12 L 8 0 Z" fill="#D45B47"/>
+  </g>
+
+  <text x="60" y="150" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#E8E2D6">linkedin.com/in/gurmann-basran</text>
+  <text x="60" y="178" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#8A7F72">lethbridge + calgary, ab, canada</text>
+
+  <line x1="60" y1="220" x2="1140" y2="220" stroke="#3A3228" stroke-width="1"/>
+  <text x="60" y="258" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="16" fill="#8A7F72" font-style="italic">sharks &gt;&gt;&gt; everything(); if you read this far we should probably talk.</text>
+  <text x="1140" y="258" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#D45B47" text-anchor="end">END TRANSMISSION</text>
+</svg>
