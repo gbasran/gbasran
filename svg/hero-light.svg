@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Gurmann Basran: defensive infrastructure, multi-tenant SaaS, sharks">
+  <rect width="1200" height="360" fill="#F5EFE4"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#E5DAC4" stroke-width="0.5" opacity="0.9">
+    <line x1="60" y1="0" x2="60" y2="360"/>
+    <line x1="1140" y1="0" x2="1140" y2="360"/>
+  </g>
+
+  <!-- Top metadata -->
+  <text x="60" y="40" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#6B614F" letter-spacing="2">FSOC :: PROFILE CARD :: REV 0.3</text>
+  <text x="1140" y="40" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#6B614F" text-anchor="end" letter-spacing="1.5">LETHBRIDGE / CALGARY · CANADA</text>
+
+  <!-- Top rule -->
+  <line x1="60" y1="60" x2="1140" y2="60" stroke="#D8CCB4" stroke-width="1"/>
+
+  <!-- Accent tag -->
+  <text x="60" y="120" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="20" fill="#8B3A2F" font-weight="700" letter-spacing="3">[ OPERATIONAL ]</text>
+
+  <!-- Main title -->
+  <text x="60" y="232" font-family="'Source Serif 4','Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif" font-size="104" fill="#1A1714" font-weight="700" letter-spacing="-2">Gurmann Basran</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="278" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="22" fill="#1A1714" letter-spacing="0.5">defensive infrastructure · multi-tenant saas · sharks</text>
+
+  <!-- Bottom rule -->
+  <line x1="60" y1="300" x2="1140" y2="300" stroke="#D8CCB4" stroke-width="1"/>
+
+  <!-- Bottom metadata -->
+  <text x="60" y="335" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#6B614F" letter-spacing="1">cs @ uleth · founder @ phuturum tech · sec+ / oscp on deck</text>
+
+  <!-- Status indicator -->
+  <rect x="1088" y="325" width="10" height="12" fill="#8B3A2F"/>
+  <text x="1104" y="335" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#8B3A2F" letter-spacing="2">READY</text>
+</svg>

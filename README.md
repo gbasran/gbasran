@@ -1,107 +1,41 @@
-```
-╔═══════════════════════════════════════════════════════════╗
-║  fsoc://  gurmann basran                                  ║
-║  cs @ uleth  ·  founder @ phuturum tech  ·  sharks > all  ║
-╚═══════════════════════════════════════════════════════════╝
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="svg/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="svg/hero-light.svg">
+  <img alt="Gurmann Basran" src="svg/hero-dark.svg" width="100%">
+</picture>
 
-I build defensive security infrastructure and multi-tenant SaaS. Grew up on Mr. Robot and took the wrong lessons about compartmentalization, tooling, and trust. The good wrong ones.
+&nbsp;
 
----
+I'm a CS student at the University of Lethbridge building two things in parallel: [Phortex](https://github.com/gbasran), a multi-tenant SaaS platform for Alberta construction and oilfield safety compliance that I'm building under the company I run, Phuturum Tech; and [Operation fsoc](https://github.com/gbasran/fsoc-portfolio), a nineteen-phase defense-first security engineering project running out of my own homelab. Security+ and OSCP are on the roadmap. Everything else I do (typography labs, deep-dive study guides, generative web, the hackathon win) orbits those two.
 
-## Active
+Grew up on Mr. Robot and took the wrong lessons about compartmentalization, tooling, and trust. The good wrong ones.
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
+### things i've figured out doing this
 
-**🛡️  Operation fsoc**
+- Defense-first isn't offense-last. It's offense in a box; isolated zone, no network path, then you can learn freely without anything of yours on the line.
+- If you can't name the blast radius and the detection signal for a thing, you shouldn't ship the thing.
+- Plan before config, write before code, rollback before deploy. I've burned afternoons skipping one of these; I haven't yet skipped two and lived.
+- Every lesson learned the hard way goes into a file at the tool-class level. Not "what broke on Tuesday at 11 PM"; what class of trap broke it.
+- Real-time alerts beat daily log review for anything that actually matters. If something trips at 3 AM, I want my phone to know first, not my inbox at 8 AM.
 
-19-phase defense-first security engineering project.
+### selected code
 
-[sanitized case study](https://github.com/gbasran/fsoc-portfolio)
+[**fsoc-portfolio**](https://github.com/gbasran/fsoc-portfolio)  ·  sanitized case study of Operation fsoc. Six LaTeX-sourced PDFs compiled by a GitHub Actions workflow, plus a `make check` target that fails the build if a product name or em-dash leaks into the tex.
 
-</td>
-<td width="33%" align="center" valign="top">
+[**DIALD**](https://github.com/gbasran/DIALD)  ·  hackathon winner. An ADHD-friendly study companion that tells you what to do next instead of giving you more things to manage.
 
-**🏗️  Phortex**
+[**phosphor-docs**](https://github.com/gbasran/phosphor-docs)  ·  zero-dependency Python docs generator. YAML theming, built-in search, AI-authoring support.
 
-Multi-tenant SaaS for Alberta construction and oilfield safety compliance.
+[**jonesauto-dbms**](https://github.com/gbasran/jonesauto-dbms)  ·  full-stack PHP + MySQL system for a used-car dealership. CPSC 3660 course project shipped with a LaTeX design report.
 
-.NET 8 · PostgreSQL · Blazor
+[**trying-to-focus**](https://github.com/gbasran/trying-to-focus)  ·  interactive ADHD simulator. CSS + vanilla JS, zero frameworks.
 
-</td>
-<td width="33%" align="center" valign="top">
+[**Snapchat-Memory-Downloader**](https://github.com/gbasran/Snapchat-Memory-Downloader)  ·  Windows GUI that bulk-pulls the Snapchat Memories export into H.264 MP4.
 
-**📚  Sec+ → OSCP**
+### find me
 
-On the roadmap. Phases 4 through 10 of fsoc do the work.
+[linkedin.com/in/gurmann-basran](https://www.linkedin.com/in/gurmann-basran/)  ·  Lethbridge + Calgary, AB, Canada
 
-</td>
-</tr>
-</table>
+&nbsp;
 
----
-
-## Stack
-
-```bash
-$ whoami --stack
-
-  backend    c#, .net 8, postgresql, ef core, clean architecture
-  frontend   typescript, next.js, react, blazor, tailwind, figma
-  infra      linux, docker, bash, cloud
-  security   firewalls, ids/siem, vpn, threat modeling
-  writing    latex, markdown, academic reports
-  sharks     many
-```
-
----
-
-## Neighborhood
-
-```mermaid
-mindmap
-  root((gbasran))
-    Ship
-      Phortex
-      Operation fsoc
-      DIALD
-    Study
-      Sec+ / OSCP
-      CS @ UofL
-    Tool
-      phosphor-docs
-      jonesauto-dbms
-      the bash that runs my lab
-    Creative
-      typography
-      generative web
-      deep-dive guides
-    Off-grid
-      sharks
-      Mr. Robot
-      music
-```
-
----
-
-## Currently
-
-```txt
-[2026-04]  shipping   →  Operation fsoc sanitized case study
-[2026-04]  studying   →  threat modeling, detection engineering
-[2026-04]  tinkering  →  multi-zone inter-policy design
-[2026-04]  rewatching →  Mr. Robot, season 3
-```
-
----
-
-## Find me
-
-- 💼 [linkedin.com/in/gurmann-basran](https://linkedin.com/in/gurmann-basran)
-- 📍 Lethbridge + Calgary, Alberta, Canada
-
----
-
-<sub>🦈 sharks >>> everything();  ·  if you read this far you probably like sharks too. say hi.</sub>
+<sub>🦈  sharks >>> everything();  ·  if you read this far we should probably talk.</sub>
